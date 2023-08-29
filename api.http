@@ -1,0 +1,19 @@
+
+
+###
+
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+  "name": "route teste 1",
+  "source_id": "1", 
+  "destination_id": "2"
+}
+
+
+### Map Things
+
+### Take Place_id
+GET http://localhost:3000/places?text=rua mar vermelho, barueri, 915
